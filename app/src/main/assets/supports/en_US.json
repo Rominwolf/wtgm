@@ -1,0 +1,121 @@
+[
+  {
+    "type": "title",
+    "content": "Application Developer",
+    "toast": "Can you catch me? ^ ^"
+  },
+  {
+    "type": "text",
+    "content": "Rominwolf",
+    "url": "https://www.wsm.ink"
+  },
+  {
+    "type": "title",
+    "content": "Special Thanks",
+    "toast": "Thank you guys to helping me debug!"
+  },
+  {
+    "type": "text",
+    "content": "Tester: EMP"
+  },
+  {
+    "type": "text",
+    "content": "Tester: Ted",
+    "url": "https://github.com/0oTedo0/"
+  },
+  {
+    "type": "text",
+    "content": "Tester: Josal",
+    "url": "https://twitter.com/Opossoll"
+  },
+  {
+    "type": "text",
+    "content": "Tester: 百里",
+    "toast": "The dream is more than endless.",
+    "url": ""
+  },
+  {
+    "type": "text",
+    "content": "Tester: 黄油",
+    "toast": "鱼总太强了！",
+    "url": ""
+  },
+  {
+    "type": "text",
+    "content": "Tester: MAGE寒城",
+    "url": "https://twitter.com/MAGE39804537"
+  },
+  {
+    "type": "text",
+    "content": "Tester: 登上陆地的鱼",
+    "toast": "黄油太强了！",
+    "url": ""
+  },
+  {
+    "type": "text",
+    "content": "App Icon Artist: Kasume",
+    "url": "https://twitter.com/Kasume_chan"
+  },
+  {
+    "type": "text",
+    "content": "App Develop Teacher: Mister Cao"
+  },
+  {
+    "type": "text",
+    "content": "……And you, thanks.",
+    "toast": "\"There's still lots of work that needs to be done, Doctor. You can't rest now!\"\n- Amiya"
+  },
+  {
+    "type": "title",
+    "content": "Application Disclaimer",
+    "toast": "Ocean Cat ☆"
+  },
+  {
+    "type": "text",
+    "content": "\"WTGM?\" utilizes (including but not limited to) pictures, animations, audio, original text and other works for the purpose of better reflecting the corresponding elements in the game and enhance the user experience. The copyright of such works belongs to the provider of the game, Shanghai Hypergryph Network Technology Co., Ltd. and/or its affiliates, including but not limited to YOSTAR (HONG KONG) LIMITED, 株式会社Yostar, YOSTAR LIMITED, 龍成網路, etc,."
+  },
+  {
+    "type": "text",
+    "content": "Application utilizes some assets from Penguin Stats and has changed some of the assets without modifying its original meaning.\n\nSame time, I utilizes materials drop analyze services from Penguin Stats, thanks.",
+    "url": "https://penguin-stats.io"
+  },
+  {
+    "type": "text",
+    "content": "The Application Icon and Logo draw by Kasume, thank you dude.",
+    "url": "https://twitter.com/Kasume_chan/status/1250678391742726144"
+  },
+  {
+    "type": "text",
+    "content": "Application utilizes font Source Sans by Adobe and Google.",
+    "url": "https://github.com/adobe-fonts/source-han-sans"
+  },
+  {
+    "type": "text",
+    "content": "Application utilizes font materialdesignicons by Penguin Stats."
+  },
+  {
+    "type": "text",
+    "content": "Application's some icons from iconfont.",
+    "url": "https://www.iconfont.cn"
+  },
+  {
+    "type": "text",
+    "content": "Some game data from ArknightsGameData uploaded by Kengxxiao.",
+    "url": "https://github.com/Kengxxiao/ArknightsGameData"
+  },
+  {
+    "type": "text",
+    "content": "Use jBCrypt open source library by Niels Provos and David Mazieres, same time, that library based by ISC/BSD license.",
+    "url": "http://www.mindrot.org/projects/jBCrypt"
+  },
+  {
+    "type": "title",
+    "content": "Get Source Code",
+    "toast": "Mark star plzzzzzz qwq"
+  },
+  {
+    "type": "text",
+    "content": "That app already open source, welcome to visit and mark star :3",
+    "url": "https://github.com/Rominwolf/wtgm"
+  }
+]

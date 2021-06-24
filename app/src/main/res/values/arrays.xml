@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerLanguage">
+        <item>根据系统选择 (Auto) [auto]</item>
+        <item>简体中文 (中国) [zh_CN]</item>
+        <item>English (United States) [en_US]</item>
+    </string-array>
+    <string-array name="spinnerServer">
+        <item>@string/spinner_server_cn</item>
+        <item>@string/spinner_server_us</item>
+        <item>@string/spinner_server_jp</item>
+        <item>@string/spinner_server_kr</item>
+    </string-array>
+</resources>

@@ -1,0 +1,121 @@
+[
+  {
+    "type": "title",
+    "content": "应用开发者",
+    "toast": "你能抓住我吗？ ^ ^"
+  },
+  {
+    "type": "text",
+    "content": "Rominwolf",
+    "url": "https://www.wsm.ink"
+  },
+  {
+    "type": "title",
+    "content": "特别鸣谢成员",
+    "toast": "感谢各位提供的意见与建议！"
+  },
+  {
+    "type": "text",
+    "content": "应用测试：EMP"
+  },
+  {
+    "type": "text",
+    "content": "应用测试：Ted",
+    "url": "https://github.com/0oTedo0/"
+  },
+  {
+    "type": "text",
+    "content": "应用测试：Josal",
+    "url": "https://twitter.com/Opossoll"
+  },
+  {
+    "type": "text",
+    "content": "应用测试：百里",
+    "toast": "The dream is more than endless.",
+    "url": ""
+  },
+  {
+    "type": "text",
+    "content": "应用测试：黄油",
+    "toast": "鱼总太强了！",
+    "url": ""
+  },
+  {
+    "type": "text",
+    "content": "应用测试：MAGE寒城",
+    "url": "https://twitter.com/MAGE39804537"
+  },
+  {
+    "type": "text",
+    "content": "应用测试：登上陆地的鱼",
+    "toast": "黄油太强了！",
+    "url": ""
+  },
+  {
+    "type": "text",
+    "content": "应用图标绘制：Kasume",
+    "url": "https://twitter.com/Kasume_chan"
+  },
+  {
+    "type": "text",
+    "content": "应用开发导师：曹老师"
+  },
+  {
+    "type": "text",
+    "content": "……以及使用该应用的你，谢谢。",
+    "toast": "“博士，你还好吗？要去休息一下吗，我扶你去吧。不用担心，我挺好的，只要你休息好就可以了。”\n——阿米娅"
+  },
+  {
+    "type": "title",
+    "content": "应用免责声明",
+    "toast": "“我永远喜欢森rua！”"
+  },
+  {
+    "type": "text",
+    "content": "“去哪儿刷图？”应用所使用的游戏资源（包括但不限于：游戏图片、动画、音频、文本原文或其转译版本等），其目的仅为更好地反映游戏内对应元素、增强用户体验，相关作品之版权仍属于上海鹰角网络科技有限公司和/或其关联公司，即鹰角网络游戏软件和/或鹰角网络游戏服务的提供方（包括但不限于：YOSTAR (HONG KONG) LIMITED, 株式会社Yostar, YOSTAR LIMITED, 龍成網路 等）。"
+  },
+  {
+    "type": "text",
+    "content": "应用内的部分文本和图片资源来源于 企鹅物流 并同时对部分资源进行了非歧义性的更改。\n\n同时，应用所使用的材料掉落概率分析服务也来自于此，在此特别感谢。",
+    "url": "https://penguin-stats.io"
+  },
+  {
+    "type": "text",
+    "content": "应用图标/Logo使用由画师 Kasume 绘制的基于明日方舟的莱茵生命成员二次创作作品，特别感谢。",
+    "url": "https://twitter.com/Kasume_chan/status/1250678391742726144"
+  },
+  {
+    "type": "text",
+    "content": "应用内所使用由 Adobe 和 Google 联合开发的字体 思源黑体。",
+    "url": "https://github.com/adobe-fonts/source-han-sans"
+  },
+  {
+    "type": "text",
+    "content": "应用内所使用 企鹅物流 使用的字体 materialdesignicons。"
+  },
+  {
+    "type": "text",
+    "content": "应用内部分图标来自于 阿里巴巴图标矢量库。",
+    "url": "https://www.iconfont.cn"
+  },
+  {
+    "type": "text",
+    "content": "应用内部分游戏数据来自于 Kengxxiao 上传的 ArknightsGameData。",
+    "url": "https://github.com/Kengxxiao/ArknightsGameData"
+  },
+  {
+    "type": "text",
+    "content": "使用由 Niels Provos 和 David Mazieres 联合开发的基于 ISC/BSD 协议的软件：jBCrypt。",
+    "url": "http://www.mindrot.org/projects/jBCrypt"
+  },
+  {
+    "type": "title",
+    "content": "获取源码",
+    "toast": "点个星吧，救救孩子！！！pwp"
+  },
+  {
+    "type": "text",
+    "content": "应用已开源，点击访问，感谢Star :3",
+    "url": "https://github.com/Rominwolf/wtgm"
+  }
+]

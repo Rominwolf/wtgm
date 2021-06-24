@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UserInfoActivity"
+    android:padding="20dp"
+    android:background="@drawable/userinfo_background">
+
+    <ImageView
+        android:id="@+id/viewImageAvatar"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/doctor_avatar"
+        android:contentDescription="@+id/viewImageAvatar" />
+
+    <LinearLayout
+        android:id="@+id/viewLinearUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewImageAvatar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:textSize="16sp"
+            android:text="@string/title_welcome_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:textSize="16sp"
+            android:text="@string/title_dr"/>
+        <TextView
+            android:id="@+id/viewTextUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/viewLinearId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewImageAvatar"
+        android:layout_marginTop="32dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/rogeTitle"
+            android:text="@string/title_id_posait"/>
+        <TextView
+            android:id="@+id/viewTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/rogeTitle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/viewLinearLogoutAndDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <Button
+            android:id="@+id/viewButtonLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_logout"
+            android:onClick="onClickLogout" />
+        <Button
+            android:id="@+id/viewButtonDeleteAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="@string/title_delete" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/viewButtonChangePassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_change_password"
+        app:layout_constraintBottom_toTopOf="@+id/viewLinearLogoutAndDelete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/viewButtonChangeUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_change_username"
+        app:layout_constraintBottom_toTopOf="@+id/viewButtonChangePassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ink.wsm.wtgm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="ink.wsm.wtgm.utils.G"
+        android:allowBackup="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="ink.wsm.wtgm.activity.StageInfoActivity"/>
+        <activity android:name="ink.wsm.wtgm.activity.EditUserInfoActivity" />
+        <activity android:name="ink.wsm.wtgm.activity.UserInfoActivity" />
+        <activity android:name="ink.wsm.wtgm.activity.SupportActivity" />
+        <activity android:name="ink.wsm.wtgm.activity.RegisterActivity" />
+        <activity android:name="ink.wsm.wtgm.activity.SettingActivity" />
+        <activity android:name="ink.wsm.wtgm.activity.MaterialActivity" />
+        <activity android:name="ink.wsm.wtgm.activity.LoginActivity" />
+        <activity android:name="ink.wsm.wtgm.activity.ChooseMaterialsActivity" />
+        <activity android:name="ink.wsm.wtgm.activity.MainActivity" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

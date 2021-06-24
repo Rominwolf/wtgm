@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/viewEditUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/stringHintUsername"
+        android:ems="10"
+        android:hint="@string/stringHintUsername"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/viewEditPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/stringHintPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewEditUsername"
+        android:autofillHints="@string/stringHintPassword" />
+
+    <Button
+        android:id="@+id/viewButtonLogin"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stringTitleLogin"
+        android:onClick="onClickLogin"
+        app:layout_constraintEnd_toEndOf="@+id/viewEditPassword"
+        app:layout_constraintTop_toBottomOf="@+id/viewEditPassword" />
+
+    <TextView
+        android:id="@+id/viewTextJumpToRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickJumpToRegister"
+        android:text="@string/textJumpToRegisterPage"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/viewEditPassword"
+        app:layout_constraintTop_toBottomOf="@+id/viewButtonLogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

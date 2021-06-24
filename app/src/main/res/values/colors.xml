@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#887b6d</color>
+    <color name="colorPrimaryDark">#6d594f</color>
+    <color name="colorAccent">#8e755a</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="mainTitle">#303133</color>
+    <color name="subTitle">#606266</color>
+    <color name="rogeTitle">#909399</color>
+    <color name="plateTitle">#C0C4CC</color>
+    <color name="rankNo01">#f2c156</color>
+    <color name="rankNo02">#909399</color>
+    <color name="rankNo03">#ba6f40</color>
+</resources>

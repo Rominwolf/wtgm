@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimenTitle">32sp</dimen>
+    <dimen name="dimenActionBarHeight">60sp</dimen>
+    <dimen name="dimenButtonNormal">18sp</dimen>
+    <dimen name="dimenChooseMaterialSize">64dp</dimen>
+</resources>

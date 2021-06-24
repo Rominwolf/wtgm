@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:text="@string/title_stage_info_code"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:paddingEnd="4dp"
+            android:text="@string/title_left_slash_double"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/viewTextCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subTitle"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:text="@string/title_stage_info_id"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:paddingEnd="4dp"
+            android:text="@string/title_left_slash_double"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/viewTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subTitle"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:text="@string/title_stage_info_danger_level"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:paddingEnd="4dp"
+            android:text="@string/title_left_slash_double"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/viewTextDangerLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subTitle"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:text="@string/title_stage_info_exp_gain"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:paddingEnd="4dp"
+            android:text="@string/title_left_slash_double"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/viewTextExpGain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subTitle"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subTitle"
+            android:text="@string/title_stage_info_point"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:text="@string/title_stage_info_ap_cost"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:paddingEnd="4dp"
+            android:text="@string/title_left_slash_double"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/viewTextApCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subTitle"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subTitle"
+            android:text="@string/title_stage_info_point"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:text="@string/title_stage_info_ap_fail_return"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:paddingEnd="4dp"
+            android:text="@string/title_left_slash_double"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/viewTextApFailReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subTitle"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subTitle"
+            android:text="@string/title_stage_info_point"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:text="@string/title_stage_info_description"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_bold"
+            android:textColor="@color/mainTitle"
+            android:paddingEnd="4dp"
+            android:text="@string/title_left_slash_double"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/viewTextDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subTitle"
+            android:lineHeight="30sp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</LinearLayout>
