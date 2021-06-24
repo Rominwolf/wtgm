@@ -138,7 +138,7 @@
 
 ## 文件组织结构截图
 
-[TODO]
+![目录树 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/0.png)
 
 ### 各类文件说明
 
