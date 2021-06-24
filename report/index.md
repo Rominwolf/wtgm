@@ -17,7 +17,7 @@
 
 因图片过大，如果看不清，请查看同级目录下的同名PDF文件。
 
-[TODO]
+![UML 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/uml.png)
 
 ## 数据库设计分析
 
@@ -262,7 +262,25 @@
 
 ## 项目功能界面截图
 
-[TODO]
+![首页 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/main.png)
+
+![选择材料 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/choose_material.png)
+
+![材料掉落矩阵 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/material.png)
+
+![关卡信息 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/stage_info.png)
+
+![登录 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/login.png)
+
+![注册 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/register.png)
+
+![用户信息 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/user_info.png)
+
+![编辑用户 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/edit_user.png)
+
+![设置 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/setting.png)
+
+![关于 图片](https://raw.githubusercontent.com/Rominwolf/wtgm/master/report/about.png)
 
 ## 功能描述
 
