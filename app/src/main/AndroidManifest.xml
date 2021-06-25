@@ -21,7 +21,7 @@
         <activity android:name="ink.wsm.wtgm.activity.MaterialActivity" />
         <activity android:name="ink.wsm.wtgm.activity.LoginActivity" />
         <activity android:name="ink.wsm.wtgm.activity.ChooseMaterialsActivity" />
-        <activity android:name="ink.wsm.wtgm.activity.MainActivity" android:exported="false">
+        <activity android:name="ink.wsm.wtgm.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
